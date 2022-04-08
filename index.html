@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>interactive-rating-component</title>
+  </head>
+
+  <body>
+    <!-- 1st c -->
+    <div class="container card1">
+      <div class="square">
+        <div class="star">
+          <img src="images/icon-star.svg" alt="" />
+        </div>
+        <div class="text">
+          <h1 class="text-heading">How did we do?</h1>
+          <p class="text-text">
+            Please let us know how we did with your support request.All
+            feeedback is appreciated to help us improve our offering!
+          </p>
+        </div>
+
+        <div class="rating">
+          <p value="1" class="rt">1</p>
+          <p value="2" class="rt">2</p>
+          <p id="active" value="3" class="rt">3</p>
+          <p value="4" class="rt">4</p>
+          <p value="5" class="rt">5</p>
+        </div>
+        <div class="button">
+          <button class="btn">s u b m i t</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- --- 2nd ---- -->
+    <div class="card2 hide">
+      <div class="container2">
+        <img src="images/illustration-thank-you.svg" />
+        <div class="selected">
+          You selected
+          <span class="rv">0</span>
+          out of 5
+        </div>
+        <h1 class="thankyou">Thank you!</h1>
+        <center>
+          <p>
+            We appreciate you talking time to give a rating.If you ever need
+            more support ,don't hesitate to get in touch!
+          </p>
+        </center>
+      </div>
+    </div>
+  </body>
+
+  <!-- JavaScript File -->
+  <script src="app.js"></script>
+</html>
